@@ -1,0 +1,112 @@
+         {
+            
+
+            Console.WriteLine("number1");
+            int num1 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("number2");
+            int num2 = Int32.Parse(Console.ReadLine());
+
+  
+            var result = (float)num1/num2;
+            Console.WriteLine("{0} / {1} = {2}", num1, num2, result);
+
+
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
+
+
+
+
+
+
+   {
+
+
+            Console.WriteLine("n1");
+            string s = Console.ReadLine();
+            float a = float.Parse(s);
+
+            Console.WriteLine("n2");
+            string s2 = Console.ReadLine();
+            float b = float.Parse(s2);
+
+            float c = a / b;
+            Console.WriteLine("res");
+            Console.WriteLine(c);
+            Console.ReadLine();
+
+          
+
+        }
+
+
+??????? ??? ?????????
+
+     {
+
+
+
+                Console.WriteLine("Define number1");
+                string s = Console.ReadLine();
+                float a = float.Parse(s);
+
+                Console.WriteLine("Define number2");
+                string s2 = Console.ReadLine();
+                float b = float.Parse(s2);
+
+                float c = a%b;
+
+            if (c != 0)
+                Console.WriteLine("No. Cant be devided");
+            
+            if (c == 0)
+                Console.WriteLine("Yes can be devided");
+          
+
+            // Console.WriteLine("res");
+            //Console.WriteLine(c);
+            Console.ReadLine();
+            
+
+
+        }
+
+
+
+
+fizzbuzz
+
+    {
+
+            for (int i = 1; i <= 100; i++)
+
+
+                if (i % 3 == 0 &&  i% 5 == 0)
+                {
+                    Console.WriteLine("fizzbuzz");
+                }
+
+                else if (i % 5 == 0)
+                { 
+                    Console.WriteLine("buzz");
+                }
+
+                else if (i % 3 == 0)
+                {
+                Console.WriteLine("fizz");
+                }
+
+     
+                else Console.WriteLine(i);
+
+           
+  
+
+            Console.ReadLine();
+
+        }
+
+
